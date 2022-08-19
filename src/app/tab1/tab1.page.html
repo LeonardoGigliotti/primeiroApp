@@ -1,12 +1,62 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+       Cardápio
+       <ion-button> </ion-button>
+       <list></list>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content [fullscreen]="true">
-  <ion-searchbar color="danger" placeholder="digite aqui"></ion-searchbar>
-</ion-content>
+  <ion-searchbar color="dark" placeholder="digite aqui"></ion-searchbar>
+  <list-header></list-header>
+
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://t2.rg.ltmcdn.com/pt/posts/9/8/3/pizza_calabresa_e_mussarela_4389_600.jpg">
+      </ion-thumbnail>
+      <ion-label>Pizza de Calabresa</ion-label>
+      <ion-badge slot="end">R$22,00</ion-badge>
+    </ion-item>
+    <ion-item>
+    <ion-thumbnail>
+      <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-de-lombo-1-730x449.jpg">
+    </ion-thumbnail>
+    <ion-label>Pizza de Lombo</ion-label>
+    <ion-badge slot="end">R$27,00</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://images.aws.nestle.recipes/resized/ec7790c3741418234970f17ade9e50f1_pizza-4-queijos-receitas-nestle_1200_600.jpg">
+      </ion-thumbnail>
+      <ion-label>Pizza de Queijo</ion-label>
+      <ion-badge slot="end">R$22,00</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail>
+          <img src="http://s2.glbimg.com/70AQxyXgGMO2KO_lq6aAWbggvVI=/290x217/s2.glbimg.com/8y5T_MyJvbA32G4Mt0d_SLlcB_A=/300x225/s.glbimg.com/jo/g1/f/original/2014/07/10/alface.png">
+        </ion-thumbnail>
+        <ion-label>Pizza de Alface</ion-label>
+        <ion-badge slot="end">R$23,00</ion-badge>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail>
+            <img src="https://img.itdg.com.br/images/recipes/000/055/212/131483/131483_original.jpg">
+          </ion-thumbnail>
+          <ion-label>Pizza de Nutella</ion-label>
+          <ion-badge slot="end">R$36,00</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-thumbnail>
+              <img src="https://ac24horas.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-12-at-10.06.37.jpeg">
+            </ion-thumbnail>
+            <ion-label>Pizza de Açai</ion-label>
+            <ion-badge slot="end">R$34,00</ion-badge>
+            </ion-item>
+          
   
+  </ion-list>
+</ion-content>
