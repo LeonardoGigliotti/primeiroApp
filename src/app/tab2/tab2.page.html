@@ -1,17 +1,114 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Bebidas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content [fullscreen]="true">
+  <ion-searchbar color="dark" placeholder="digite aqui"></ion-searchbar>
+  <list-header></list-header>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col size="6">
+        
+        <ion-card>
+
+          <img src="https://img.kalunga.com.br/FotosdeProdutos/348210d.jpg" alt="">
+
+          <ion-item>
+            <ion-label>Coca-Cola</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 5,50</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+        <ion-card>
+          <img src="https://escoladereceitas.com/wp-content/uploads/2022/02/suco-de-acerola-com-leite.jpg" alt="">
+
+          <ion-item>
+            <ion-label>Suco de Acerola</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 5,00</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+        <ion-card>
+          <img src="https://tezeio.vteximg.com.br/arquivos/ids/342103-1000-1000/7891991014762_1_1.jpg?v=637967383482600000" alt="">
+  
+          <ion-item>
+            <ion-label>Cerveja Budweiser</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 8,00</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+        
+
+      </ion-col> <!-- fim da col 1-->
+
+      <ion-col size="6">
+
+        <ion-card>
+          <img src="https://www.pepsico.com/images/default-source/products-brands/pepsi_zero.png?sfvrsn=2a0e6695_0" alt="">
+  
+          <ion-item>
+            <ion-label>Pepsi Zero</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 5,50</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+  
+        <ion-card>
+          <img src="https://img.itdg.com.br/tdg/images/recipes/000/098/564/333992/333992_original.jpg" alt="">
+  
+          <ion-item>
+            <ion-label>Suco de Laranja</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 5,00</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+        <ion-card>
+          <img src="https://majoricario.com.br/site/wp-content/uploads/2021/02/Heineken.png" alt="">
+  
+          <ion-item>
+            <ion-label>Cerveja Heineken</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 10,00</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+        
+        
+      </ion-col> <!-- fim da col 2-->
+     
+    </ion-row>
+  </ion-grid>
 </ion-content>
